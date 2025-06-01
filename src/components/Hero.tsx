@@ -28,7 +28,7 @@ const Hero = () => {
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <div className="mb-8">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-yellow-400 via-orange-400 to-yellow-300 bg-clip-text text-transparent animate-fade-in whitespace-nowrap">
-                          AL-KOGIWYY CASUALS
+                          AL-KOGIWWYY CASUALS
           </h1>
 
           <p className="text-xl md:text-2xl text-blue-100 mb-4 animate-fade-in delay-300">

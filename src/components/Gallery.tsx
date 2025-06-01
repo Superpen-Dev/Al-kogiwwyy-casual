@@ -4,10 +4,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
-import kaftan1 from '@/assets/clothing/kaftan1.jpg';
+
 import kaftan2 from '@/assets/clothing/kaftan2.jpg';
 import kaftan3 from '@/assets/clothing/kaftan3.jpg';
-import kaftan4 from '@/assets/clothing/kaftan4.jpg';
+import kaftan6 from '@/assets/clothing/kaftan6.jpg';
+import kaftan5 from '@/assets/clothing/kaftan5.jpg';
+import agbada6 from '@/assets/clothing/agbada6.jpg';
 import agbada1 from '@/assets/clothing/agbada1.jpg';
 import agbada2 from '@/assets/clothing/agbada2.jpg';
 import agbada3 from '@/assets/clothing/agbada3.jpg';
@@ -35,7 +37,7 @@ const Gallery = () => {
     {
       id: 1,
       name: "Kaftan",
-      images: [kaftan1, kaftan2, kaftan3, kaftan4],
+      images: [kaftan2, casual4, kaftan5, kaftan6, kaftan3],
       description: "Elegant flowing kaftan for special occasions",
       price: "Standard Kaftan ₦45,000 - ₦65,000 | Classic Kaftan ₦70,000 - ₦100,000",
       // Note: Adjusted price to reflect a range for standard kaftan
@@ -43,37 +45,37 @@ const Gallery = () => {
     {
       id: 2,
       name: "Agbada",
-      images: [agbada1, agbada2, agbada3, agbada4],
+      images: [agbada6, agbada1, agbada2, agbada3, agbada4],
       description: "Majestic agbada with beautiful embroidery",
-      price: "From ₦25,000",
+      price: "Royal Agbada ₦120,000 - ₦180,000 | Wedding Agbada ₦190,000 - ₦300,000",
     },
     {
       id: 3,
       name: "Custom Event Dresses",
       images: [custom1, custom2, custom3, custom4],
       description: "Sophisticated evening wear for elegant occasions",
-      price: "From ₦18,000",
+      price: "Custom Event Dresses ₦100,000 - ₦120,000 | Premium Event Dresses ₦120,000 - ₦200,000",
     },
     {
       id: 4,
       name: "Casual Dresses",
       images: [casual1, casual2, casual3, casual4],
       description: "Comfortable daily wear with vibrant patterns",
-      price: "From ₦8,000",
+      price: "Casual Dresses ₦40,000 - ₦60,000",
     },
     {
       id: 5,
       name: "Pant/Trousers",
       images: [pant1, pant2, pant3, pant4],
       description: "Stylish and durable trousers for all occasions",
-      price: "From ₦10,000",
+      price: "Standard Prices ₦20,500 | Classic Prices ₦35,000 | Premium Prices: ₦45,000 - ₦60,000",
     },
     {
       id: 6,
-      name: "Classic Senator Materials",
+      name: "Senator Materials",
       images: [senator1, senator2, senator3, senator4],
       description: "Premium quality senator fabric with intricate designs",
-      price: "From ₦15,000",
+      price: "Available in various colors and patterns | Prices start from ₦21,000 for three trousers",
     }
   ];
 

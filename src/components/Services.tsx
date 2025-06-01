@@ -5,12 +5,12 @@ const Services = () => {
   const services = [
     {
       icon: <Crown className="w-12 h-12" />,
-      title: "Senator Materials",
+      title: "Senators & Kaftan",
       description: "Premium quality senator fabrics crafted into elegant traditional wear for distinguished gentlemen."
     },
     {
       icon: <Shirt className="w-12 h-12" />,
-      title: "Kaftan & Agbada",
+      title: "Agbada",
       description: "Traditional flowing robes and ceremonial wear that showcase the beauty of African heritage."
     },
     {

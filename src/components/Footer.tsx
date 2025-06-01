@@ -34,7 +34,7 @@ const Footer = () => {
             <ul className="space-y-2 text-slate-300">
               <li>Phone Number: +234 902 292 0617</li>
               <li>Location: Ogun State, Nigeria (Wolrdwide delivery Available)</li>
-              <li>Working hour: Mon - Sat: 9AM - 8PM (Active online 24/7)</li>
+              <li>Working hour: Mon - Sat: 9AM - 8PM</li>
             </ul>
           </div>
         </div>

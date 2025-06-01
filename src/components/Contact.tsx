@@ -7,25 +7,25 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      details: "+234 812 345 6789",
-      action: () => window.open('tel:+2348123456789', '_blank')
+      details: "+234 902 292 0617",
+      action: () => window.open('tel:+2349022920617', '_blank')
     },
     {
       icon: <MessageCircle className="w-6 h-6" />,
       title: "WhatsApp",
       details: "Chat with us instantly",
-      action: () => window.open('https://wa.me/+2348123456789?text=Hi Al-Kogiwiyy Casuals, I would like to know more about your services', '_blank')
+      action: () => window.open('https://wa.me/+2349022920617?text=Hi Al-Kogiwwyy Casuals, I would like to know more about your services.', '_blank')
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Location",
-      details: "Lagos, Nigeria",
+      details: "Ogun, Nigeria",
       action: () => {}
     },
     {
       icon: <Clock className="w-6 h-6" />,
       title: "Working Hours",
-      details: "Mon - Sat: 9AM - 7PM",
+      details: "Mon - Sat: 9AM - 8PM",
       action: () => {}
     }
   ];
@@ -67,7 +67,7 @@ const Contact = () => {
               Click the button below to start a conversation with us on WhatsApp
             </p>
             <Button 
-              onClick={() => window.open('https://wa.me/+2348123456789?text=Hi Al-Kogiwiyy Casuals, I would like to place an order', '_blank')}
+              onClick={() => window.open('https://wa.me/+2349022920617?text=Hi Al-Kogiwwyy Casuals, I would like to place an order', '_blank')}
               className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105"
             >
               <MessageCircle className="w-5 h-5 mr-2" />
