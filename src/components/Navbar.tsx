@@ -2,6 +2,8 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Scissors } from "lucide-react";
+import logo from '../assets/logo.jpg'; // adjust the path as needed
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,9 +30,9 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <Scissors className="w-8 h-8 text-yellow-500" />
+            <img src={logo} alt="Al-Kogiwiyy Logo" className="w-8 h-8" />
             <span className="text-xl font-bold bg-gradient-to-r from-yellow-600 to-orange-600 bg-clip-text text-transparent">
-              Al-Kogiwiyy Casuals
+              Al-Kogiwwyy Casuals
             </span>
           </div>
 
@@ -46,7 +48,7 @@ const Navbar = () => {
               </button>
             ))}
             <Button
-              onClick={() => window.open('https://wa.me/+2348123456789?text=Hi Al-Kogiwiyy Casuals, I would like to know more about your services', '_blank')}
+              onClick={() => window.open('https://wa.me/+2348123456789?text=Hi Al-Kogiwwyy Casuals, I would like to know more about your services', '_blank')}
               className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full"
             >
               WhatsApp
