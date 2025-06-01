@@ -95,7 +95,7 @@ const Gallery = () => {
   material11,
   material12,],
       description: "Premium quality senator fabric with intricate designs",
-      price: "Available in various colors and patterns | Prices start from ₦21,000 for three trousers",
+      price: "Available in various colors, patterns and Prices",
     }
   ];
 
