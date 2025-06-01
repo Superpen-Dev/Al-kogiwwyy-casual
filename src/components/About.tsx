@@ -9,14 +9,13 @@ const About = () => {
               About Al-Kogiwwyy Casuals
             </h2>
             <p className="text-lg text-blue-100 mb-6 leading-relaxed">
-              With years of experience in the fashion industry, Al-Kogiwwyy Casuals has established itself as a premier destination for traditional African wear and modern fashion.
+             AL-KOGIWWYY CASUALS, a registered business under the Corporate Affairs Commission (CAC) of Nigeria with the registration Number: BN: 8336017, is a premium Nigerian fashion brand founded in January 2024, specializing in bespoke menswear that blends traditional African elegance with modern sophistication. After working for some years in Ghana and gaining hands-on experience in West African fashion trends and garment production, the founder returned to Nigeria with a renewed vision to redefine casual luxury for the modern African man. The brand offers meticulously tailored kaftans (starting from ₦45,000) and luxurious agbadas (from ₦120,000), each crafted with precision, quality, and cultural pride
+
             </p>
             <p className="text-lg text-blue-100 mb-6 leading-relaxed">
-              Our skilled artisans specialize in creating beautiful garments that celebrate African heritage while incorporating contemporary design elements. From elegant senator materials to majestic agbadas, every piece is crafted with attention to detail and quality.
+            With a strong focus on customer satisfaction, AL-KOGIWWYY CASUALS provides personalized service, custom fittings, and seamless communication. The brand maintains an active online presence via Instagram and TikTok @alkogiwwyy_casuals and can be reached directly through WhatsApp. As it continues to grow, AL-KOGIWWYY CASUALS aims to expand its reach
             </p>
-            <p className="text-lg text-blue-100 leading-relaxed">
-              We take pride in our ability to bring our customers' visions to life, creating custom pieces that perfectly fit their style and occasion needs.
-            </p>
+            
           </div>
           
           <div className="relative">

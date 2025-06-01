@@ -49,7 +49,7 @@ const Hero = () => {
           <Button 
             variant="outline" 
             className="border-2 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-slate-900 px-8 py-3 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105"
-            onClick={() => window.open('https://wa.me/+2348123456789?text=Hi Al-Kogiwiyy Casuals, I would like to know more about your services', '_blank')}
+            onClick={() => window.open('https://wa.me/+2349022920617?text=Hi Al-Kogiwwyy Casuals, I would like to know more about your services', '_blank')}
           >
             Contact Us
           </Button>

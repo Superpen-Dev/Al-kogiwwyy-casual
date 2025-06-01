@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Scissors } from "lucide-react";
-import logo from '../assets/logo.jpg'; // adjust the path as needed
+import logo from '../assets/logo.jpg'; 
 
 
 const Navbar = () => {
@@ -30,11 +30,15 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <img src={logo} alt="Al-Kogiwiyy Logo" className="w-8 h-8" />
-            <span className="text-xl font-bold bg-gradient-to-r from-yellow-600 to-orange-600 bg-clip-text text-transparent">
-              Al-Kogiwwyy Casuals
-            </span>
-          </div>
+  <img src={logo} alt="Al-Kogiwiyy Logo" className="w-8 h-8" />
+  <div className="flex flex-col leading-tight">
+    <span className="text-xl font-bold bg-gradient-to-r from-yellow-600 to-orange-600 bg-clip-text text-transparent">
+      Al-Kogiwwyy Casuals
+    </span>
+    <span className="text-xs text-gray-500">BN: 8336017</span>
+  </div>
+</div>
+
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">

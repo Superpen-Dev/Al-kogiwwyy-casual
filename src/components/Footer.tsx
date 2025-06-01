@@ -1,4 +1,5 @@
-import { Instagram, Music2 } from "lucide-react"; // Music2 will be used as TikTok icon placeholder
+import { Instagram, Music2, Facebook } from "lucide-react";
+
 
 
 const Footer = () => {
@@ -50,6 +51,15 @@ const Footer = () => {
       <Instagram className="w-6 h-6" />
     </a>
     <a
+  href="https://www.facebook.com/share/1KNsFdnoCt/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-yellow-400 transition"
+>
+  <Facebook className="w-6 h-6" />
+</a>
+
+    <a
       href="https://www.tiktok.com/@alkogiwwyy_casuals"
       target="_blank"
       rel="noopener noreferrer"
@@ -59,7 +69,7 @@ const Footer = () => {
     </a>
   </div>
   <p>
-    © {new Date().getFullYear()} Al-Kogiwwyy Casuals. All rights reserved.
+    © {new Date().getFullYear()} Al-Kogiwwyy Casuals. All rights reserved. BN: 8336017
   </p>
 </div>
       </div>

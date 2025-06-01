@@ -26,10 +26,19 @@ import pant1 from '@/assets/clothing/pant1.jpg';
 import pant2 from '@/assets/clothing/pant2.jpg';
 import pant3 from '@/assets/clothing/pant3.jpg';
 import pant4 from '@/assets/clothing/pant4.jpg';
-import senator1 from '@/assets/clothing/senator1.jpg';
-import senator2 from '@/assets/clothing/senator2.jpg';
-import senator3 from '@/assets/clothing/senator3.jpg';
-import senator4 from '@/assets/clothing/senator4.jpg';
+import material1 from '@/assets/clothing/material1.jpg';
+import material2 from '@/assets/clothing/material2.jpg';
+import material3 from '@/assets/clothing/material3.jpg';
+import material4 from '@/assets/clothing/material4.jpg';
+import material5 from '@/assets/clothing/material5.jpg';
+import material6 from '@/assets/clothing/material6.jpg';
+import material7 from '@/assets/clothing/material7.jpg';
+import material8 from '@/assets/clothing/material8.jpg';
+import material9 from '@/assets/clothing/material9.jpg';
+import material10 from '@/assets/clothing/material10.jpg';
+import material11 from '@/assets/clothing/material11.jpg';
+import material12 from '@/assets/clothing/material12.jpg';
+
 import { Button } from "@/components/ui/button";
 
 const Gallery = () => {
@@ -73,7 +82,18 @@ const Gallery = () => {
     {
       id: 6,
       name: "Senator Materials",
-      images: [senator1, senator2, senator3, senator4],
+      images: [ material1,
+  material2,
+  material3,
+  material4,
+  material5,
+  material6,
+  material7,
+  material8,
+  material9,
+  material10,
+  material11,
+  material12,],
       description: "Premium quality senator fabric with intricate designs",
       price: "Available in various colors and patterns | Prices start from ₦21,000 for three trousers",
     }
