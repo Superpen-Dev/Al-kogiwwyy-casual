@@ -6,10 +6,10 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-yellow-400">
-              About Al-Kogiwiyy Casuals
+              About Al-Kogiwwyy Casuals
             </h2>
             <p className="text-lg text-blue-100 mb-6 leading-relaxed">
-              With years of experience in the fashion industry, Al-Kogiwiyy Casuals has established itself as a premier destination for traditional African wear and modern fashion.
+              With years of experience in the fashion industry, Al-Kogiwwyy Casuals has established itself as a premier destination for traditional African wear and modern fashion.
             </p>
             <p className="text-lg text-blue-100 mb-6 leading-relaxed">
               Our skilled artisans specialize in creating beautiful garments that celebrate African heritage while incorporating contemporary design elements. From elegant senator materials to majestic agbadas, every piece is crafted with attention to detail and quality.

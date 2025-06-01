@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-2xl font-bold text-yellow-400 mb-4">
-              Al-Kogiwiyy Casuals
+              Al-Kogiwwyy Casuals
             </h3>
             <p className="text-slate-300 mb-4">
               Your trusted partner for premium African fashion and traditional wear.
@@ -39,9 +39,10 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-slate-700 mt-8 pt-8 text-center">
-          <p className="text-slate-400">
-            © 2024 Al-Kogiwiyy Casuals. All rights reserved. | Made with ❤️ for African Fashion
+          <p>
+  © {new Date().getFullYear()} Al-Kogiwiyy Casuals. All rights reserved.
           </p>
+
         </div>
       </div>
     </footer>
