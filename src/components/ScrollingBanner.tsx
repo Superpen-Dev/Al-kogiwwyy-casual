@@ -10,21 +10,6 @@ const ScrollingBanner = () => {
         <span className="text-sm font-medium px-4">{bannerText}</span>
         <span className="text-sm font-medium px-4">{bannerText}</span>
       </div>
-      
-      <style jsx>{`
-        @keyframes scroll {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-100%);
-          }
-        }
-        
-        .animate-scroll {
-          animation: scroll 30s linear infinite;
-        }
-      `}</style>
     </div>
   );
 };
