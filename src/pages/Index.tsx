@@ -1,5 +1,6 @@
 
 import Navbar from "@/components/Navbar";
+import ScrollingBanner from "@/components/ScrollingBanner";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import Gallery from "@/components/Gallery";
@@ -11,6 +12,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
+      <ScrollingBanner />
       <section id="home">
         <Hero />
       </section>

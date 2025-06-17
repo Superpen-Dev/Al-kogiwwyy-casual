@@ -8,16 +8,16 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white overflow-hidden pt-16">
       
-      {/* Agbada Background Image */}
-      <div className="absolute inset-0 opacity-20">
+      {/* Classic Royal Agbada Background Image */}
+      <div className="absolute inset-0 opacity-30">
         <img 
           src="https://images.unsplash.com/photo-1594736797933-d0c501ba2fe8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3" 
-          alt="Traditional Agbada"
+          alt="Classic Royal Agbada"
           className="w-full h-full object-cover object-center"
         />
       </div>
       
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-0 bg-black/50"></div>
       
       <div className="absolute inset-0">
         <div className="absolute top-20 left-20 w-32 h-32 bg-yellow-400/10 rounded-full blur-xl animate-pulse"></div>
